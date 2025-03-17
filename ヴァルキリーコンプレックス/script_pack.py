@@ -241,7 +241,7 @@ f = open('script.pak', 'rb')
 b = f.read()
 f.close()
 p2 = './Pack\\'
-if not os.path.exists(p1):
+if not os.path.exists(p2):
     os.mkdir(p2)
 f = open('./Pack\script.pak', 'wb')
 f.write(b)
