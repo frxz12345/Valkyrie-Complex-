@@ -77,7 +77,7 @@ if not os.path.exists(p1):
     os.mkdir(p1)
 if not os.path.exists(p2):
     os.mkdir(p2)
-# 解包(p1, file)
+解包(p1, file)
 # exit(1)
 files = os.listdir(p2)
 fw = open('' + file.replace('.pak', '.new'), 'wb')
