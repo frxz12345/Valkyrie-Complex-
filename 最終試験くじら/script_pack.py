@@ -2,7 +2,7 @@ import os
 import struct
 
 file = 'Script.pak'
-xor = xor
+xor = 0XAA
 
 
 def 解包(p1, file):
