@@ -1,7 +1,7 @@
 import os
 import struct
 
-game = 'VC'
+game = 'ヴァルキリーコンプレックス'
 arc = 'Script.pak'
 key1 = 0x58
 key2 = 0x24
