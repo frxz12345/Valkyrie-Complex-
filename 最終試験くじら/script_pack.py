@@ -117,7 +117,7 @@ for file in files:
     for i in data:
         i0 = i
         i = 0xfe - i
-        if i >= 0:
+        if i > 0:
             d = d + struct.pack('B', i)
         else:
             d = d + i0
